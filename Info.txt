@@ -1,2 +1,52 @@
 Javascript Basics
 -------------------
+
+Prerequisites:
+---------------
+- HTML
+- CSS
+--------------------------------------------------------------------------------------------------------------
+
+What will be covered?
+----------------------
+- What javascript is & when we use it
+- Basic javascript syntax
+- Working with datatypes (integers, strings, etc.)
+- Control flow (loops & contional statements)
+- The Document Object Model (DOM)
+- Examples of javscript on webpages
+--------------------------------------------------------------------------------------------------------------
+
+What is javascript?
+--------------------
+- One of the 3 core languages
+    - HTML - controls the structure of the web page
+    - CSS - controls the presentation & design
+    - Javascript - adds behaviour and interavtivity
+- Javascript is a scripting language
+- Intentionally limited
+- Doesn't have the features of other programming languages like C++, C#, Java, etc.
+- Cannot communicate directly with database or file system of a computer
+- However it is great at manipulating webpages
+
+            Client/Browser                  Server
+            ______________                ______________
+           |              |   <-----     |              |
+           |______________|              |______________|
+                HTML                          ASP.NET
+                CSS                             PHP
+              Javascript                  Ruby on rails
+
+- Javascript should enhance the audience experience only
+- Do not rely on javascript to add new functionality to the website
+
+- Javascript is NOT, and has Nothing to do with Java
+- Javascript is just a name that was given to it while Java was bery popular
+- The official name of javascript is ECMAScript
+--------------------------------------------------------------------------------------------------------------
+
+Hello World using JS:
+---------------------
+ refer - helloworld.html
+--------------------------------------------------------------------------------------------------------------
+
