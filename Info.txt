@@ -5,7 +5,7 @@ Prerequisites:
 ---------------
 - HTML
 - CSS
---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 What will be covered?
 ----------------------
@@ -15,13 +15,13 @@ What will be covered?
 - Control flow (loops & contional statements)
 - The Document Object Model (DOM)
 - Examples of javscript on webpages
---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 What is javascript?
 --------------------
 - One of the 3 core languages
     - HTML - controls the structure of the web page
-    - CSS - controls the presentation & design
+    - CSS  - controls the presentation & design
     - Javascript - adds behaviour and interavtivity
 - Javascript is a scripting language
 - Intentionally limited
@@ -43,10 +43,10 @@ What is javascript?
 - Javascript is NOT, and has Nothing to do with Java
 - Javascript is just a name that was given to it while Java was bery popular
 - The official name of javascript is ECMAScript
---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 Hello World using JS:
 ---------------------
  refer - helloworld.html
---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
