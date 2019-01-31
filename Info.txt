@@ -50,3 +50,31 @@ Hello World using JS:
  refer - helloworld.html
 ----------------------------------------------------------------------------------------------------
 
+Where to put your JS:
+----------------------
+- Place the javascript code "inside" the "head" or at the "end of the body" based on the need
+- Place JS in the head while doing asynchronous scripting (only if needed)
+- Place JS in the end of the body
+- If the script is larger, use an external file to place all the JS code and link it with the html
+    - Doesn't mess up with the HTML & other webpage content
+    - While using it in multiple pages, need to update only once
+    - More tidy & keeps things in a logical place
+
+refer - helloworld.html, test.js (all javacript files end with .js extension)
+----------------------------------------------------------------------------------------------------
+
+Google chrome developer tools:
+------------------------------
+- Press 'F12' or right click on the webpage and select 'inspect' to open the chrome developer tools
+- The 'Elements' tab will contain the html content.
+- Right click on the JS file link from "<script src="test.js"> </script>" and
+  select open in 'Resources' or 'Application' tab to view the contents of the JS file
+- The 'console' tab can be used to view the logs and to perform many basic JS operations
+
+    refer - https://youtu.be/JzZFccCEgGA to know more about developer tools
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
