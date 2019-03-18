@@ -74,6 +74,141 @@ Google chrome developer tools:
     refer - https://youtu.be/JzZFccCEgGA to know more about developer tools
 ----------------------------------------------------------------------------------------------------
 
+Basic javascript syntax and structure:
+---------------------------------------
+- case sensitive
+- contains many statements, all ending with a semicolon ;
+- not sensitive to whitespace or linebreaks
+
+    - The examples below are all the same.
+
+    Eg-1:
+    alert('alert 1'); alert('alert 2');
+
+    Eg-2:
+    alert('alert 1');
+    alert('alert 2');
+
+    Eg-3:
+    alert('alert 1');              alert('alert2');
+    
+- runs from top to bottom
+
+- comments are similar to CSS
+    - write multiline comments using /* */
+        /*
+            statement 1;
+            statement 2;
+            statement 3;
+        */
+    - write single line comment using //
+        // statement
+----------------------------------------------------------------------------------------------------
+
+Variables:
+-----------
+- Initialize variables with 'var' keyword
+
+- Set value in the same statement - Eg: var age = 10;
+
+- variable value can contain letters, numbers, $ sign, _s but can never start with a number
+    Egs: var age1; -> valid 
+         var my_Varible -> valid
+         var 1variable -> invalid
+
+- Best practice - to use a specific naming convention for defining variables -> camel case (most preferred)
+    Egs: var myVariable; ( 2 words - my, variable -> start with lowercase 'my' 
+         var myNewApp;                               use uppercase for 'Variable')
+
+- possible to change the type of variables (not recommended)
+    Egs: var myVar = 'hello';
+        myVar = 10; (trying to change a string to integer - this will work fine)
+
+- need not specify the type of variable while initializing
+    Eg: var myVar = 'hello'; (sets a string type to the variable)
+    - string can be enclosed in single/double quotes (var myVar1 = 'hello'; var myVar2 = "hello";)
+
+- called weakly typed language because of the last 2 points
+
+----------------------------------------------------------------------------------------------------
+Basic Math Operators:
+----------------------
+- 5 most common operators:
+    - '=' assignment
+    - '+' addition
+    - '-' subtraction
+    - '*' multiplication
+    - '/' division
+
+    Examples: Type the following commands in google developer tools -> console
+    ---------
+        Addition
+       ----------
+        var myVar = 5;        
+        myVar;        
+        5+5;        
+        myVar + 10;        
+        myVar = myVar + 10;        
+        myVar;
+
+        Subtraction
+       -------------
+        10-5;
+        myVar - 2;
+        myVar = myVar - 5;
+        myVar;
+
+        Multiplication
+       ----------------
+        10*10;
+        myVar * 2;
+        myVar = myVar * 2;
+        myVar;
+
+        Division
+       -----------
+        10/2;
+        myVar/2;
+        myVar = myVar / 2;
+        myVar;
+
+        Couple of more things with '+'
+       --------------------------------
+        concatenation: 5 + "hello" ; -> converts 5 to a string and prints '5hello'
+                       "hello" + "world"; -> helloworld
+                       "hello" + " world"; -> hello world
+                       5 * "hello"; -> NaN (Not a Number)        
+----------------------------------------------------------------------------------------------------
+
+Operator Shorthands: (try in google developer tools -> console)
+--------------------
+- +=
+    var myVar = 15;
+    myVar = myVar + 5; is the same as -> myVar += 5;
+
+    similarly, for -,*,/
+    myVar -= 5; myVar *= 5; myVar /= 10;
+
+- ++
+    var myVar = 5;
+    myVar = myVar + 1; -> output: 6
+    myVar++; -> output: 5
+    myVar; -> output: 6
+    ++myVar; -> output: 7
+-----------------------------------------------------------------------------------------------------
+
+Writing to the document and console: (try in google developer tools -> console)
+-------------------------------------
+- mainly used for debugging
+
+    var myVar = "hello";
+    document.write(myVar); -> to write on the chrome window
+    console.log(myVar);    -> to write on the console area in developer tools
+    document.write(10);
+    console.log(50);
+    console.log(10 * 2);
+    document.write(20 / 5);
+-----------------------------------------------------------------------------------------------------
 
 
 
