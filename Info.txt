@@ -209,7 +209,89 @@ Writing to the document and console: (try in google developer tools -> console)
     console.log(10 * 2);
     document.write(20 / 5);
 -----------------------------------------------------------------------------------------------------
+Booleans:
+---------
+- Boolean is a value that represents either 'true' or 'false'
+- Used to evaluate certain circumstances
+- Eg:- User login - user logins with a wrong password -> password evaluation returns false ->
+                    prompt the user to enter the password again
+                  - user logins with the right password -> password evaluation returns true ->
+                    login successful
+- Use chrome developer tools -> console to try the cmds below
+    var bool = true;
+    bool;
+    bool = "true"; -> this is not a boolean value, but a string value assigned to a variable
+    bool = false;
+    7 > 5; -> true
+    7 < 5; -> false
+    7 = 7; (should throw an exception, 
+            as '=' is an assignment operator to be used like -> var a = 10;)
+    7 == 7; -> true
+    7 === 7; -> true
+    7 == 5; -> false
+    0; -> 0
+    1; -> 1
+    Boolean (7 > 5); -> true
+    Boolean (0); -> false
+    Boolean (1); -> true
+    Boolean(-5); -> true
+    Boolean(-0); -> false
+    Boolean ('hello'); -> true
+    Boolean (''); -> false
 
+    Boolean is the built-in function in javascript to evaluate the truth or false of an expression
+-----------------------------------------------------------------------------------------------------
 
+If Statements and control flow:
+-------------------------------
+IF you pay for your train ticket
+    you won't get a fine
 
+refer - test.js
+-----------------------------------------------------------------------------------------------------
 
+ELSE IF Statements:
+-------------------
+To check mulitple conditions
+
+refer - test.js
+-----------------------------------------------------------------------------------------------------
+
+Comparison Operators:
+---------------------
+- if (x > 5) {} -> '>' is the comparison operator
+
+    List of comparison operators:
+    - >
+    - <
+    - >=
+    - <=
+    - == (x == 5)
+    - === (to check the value and type) -> recommmended
+    - != (negation operator)
+    - !== (negation to check value and type) -> recommended
+
+    Examples: (try in chrome developer tools -> console & test.js -> If conditions)
+    - var x = 5;
+    - x;
+    - x > 5; -> false
+    - x < 5; -> false
+    - x >= 5; -> true
+    - x <= 5; -> true
+    - x == 5; -> true
+    - x = "5";
+    - x == 5; -> true
+    - x === 5; -> false
+    - x = 5;
+    - x === 5; -> true
+    - x != 3; -> true
+    - x !== '5'; -> true
+    - x !== 5; -> false
+-----------------------------------------------------------------------------------------------------
+
+Logical Operators:
+------------------
+    - &&
+    - ||
+  refer test.js
+-----------------------------------------------------------------------------------------------------
