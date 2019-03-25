@@ -293,6 +293,35 @@ Logical Operators:
 ------------------
     - &&
     - ||
-    
+
   refer test.js
 -----------------------------------------------------------------------------------------------------
+
+While loops:
+------------
+ - A loop is expected to repeat a certain part of code for you so that you don't have to repeat that
+   by yourself
+
+ refer test.js
+-----------------------------------------------------------------------------------------------------
+
+For loops:
+----------
+refer helloworld.html, test.js
+-----------------------------------------------------------------------------------------------------
+
+Break & Continue:
+------------------
+Break - This keyword is used to exit the loop at any point we want
+
+Continue - Skips the iteration for a specific instance (weak form of break)
+
+    refer - test.js
+-----------------------------------------------------------------------------------------------------
+
+Practical Example of using loops:
+---------------------------------
+    refer - test.js
+
+-----------------------------------------------------------------------------------------------------
+
